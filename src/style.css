@@ -1,0 +1,13 @@
+body {
+    background-color: #D2C8C1;
+    font-family: "Lato", sans-serif;
+    font-weight: 100;
+}
+
+.app-content {
+    background-color: white;
+    max-width: 400px;
+    margin: 60px auto;
+    border-radius: 12px;
+    padding: 30px;
+}
