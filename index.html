@@ -17,22 +17,27 @@
 <div class="app-content"> 
 <header>
 <form class="search-form" id="search-form">
-    <input type="search" placeholder="Your city" required class="input-form" id="search-input">
+    <input type="search" placeholder="Enter your location" required class="input-form" id="search-input">
     <input type="submit" value="search" class="search-button">
 </form>
 </header>
 
 <div class="app-data">
 <div>
-<h1 class="app-city" id="city"> Jerusalem </h1>
-<p class="weather-details"> Saturday 11:38, sunny <br>
-Humidity: <strong> 35% </strong> Wind: <strong> 128 Km/h</strong>
-</p>
+<h1 class="app-city" id="city"> </h1>
+<p class="weather-details" id="time"> </p>
+<span id="condition">, </span> <br>
+Humidity: <strong id="humidity"> </strong> Wind: <strong id="wind-speed"> </strong>
 </div>
+
 <div class="weather-temperature"> 
 <div class="weather-value" id="temperature"> 30 </div>
 <div class="weather-unit"> °C </div>
-<div class="weather-icon"> 🌦 </div> 
+<div id="icon"> 
+<div> <img src="http://shecodes-assets.s3.amazonaws.com/api/weather/icons/clear-sky-night.png"/> 
+<class="weather-icon"> </class>
+</div>
+</div> 
 </div>
 </div>
 
