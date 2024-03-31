@@ -1,7 +1,9 @@
 body {
-    background-color: #D2C8C1;
+    background-image: url('flowers.svg');
+    background-size: cover;
     font-family: "Lato", sans-serif;
     font-weight: lighter;
+    color: #6d6a68;
 }
 
 main {
@@ -48,11 +50,12 @@ line-height: 50px;
 .search-button {
     border: none;
     border-radius: 10px;
-    background-color: #D2C8C1;
+    background-color: #D9A599;
     color: white;
     padding: 15px 30px;
     margin-left: 10px;
     font-size: 15px;
+
 }
 
 .weather-temperature {
@@ -78,5 +81,4 @@ line-height: 50px;
 footer {
     padding: 30px 0 0 0;
     font-size: 15px;
-    opacity: 0.6;
 }
